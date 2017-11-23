@@ -4,6 +4,7 @@ import PIL
 import sklearn
 import random
 from matplotlib import pyplot as plt
+import sys
 
 from PIL import Image
 from sklearn import cluster
@@ -167,7 +168,7 @@ def CheckResistor(imgIn):
     gradient = cv2.convertScaleAbs(gradient)
 
     # blur and threshold the image
-    blurred = cv2.blur(gradient, (9, 9))
+    blurred = cv2.blur(gradient, (12, 12))
     (_, thresh) = cv2.threshold(blurred, 30, 255, cv2.THRESH_BINARY)
 
     ThreshShape = thresh.shape
@@ -186,7 +187,8 @@ def CheckResistor(imgIn):
             if LineEnd == 0:
                 if MaxiX == 0:
                     LineEnd = i    
-    if LineEnd - LineIni > 70:
+    if LineEnd - LineIni > 78:
+        print 'Size: ' + str(LineIni) + ' '+ str(LineEnd)
         return True
     else:
         print 'Size: ' + str(LineIni) + ' '+ str(LineEnd)
@@ -285,7 +287,7 @@ def FindStripesColor(ImageData, Debug, Test):
     BorderYColor = []
 
     for i in range(len(yStem)):
-        if (yStem[i] > 0.2):
+        if (yStem[i] > 0.5):
             BorderYColor += [yStem[i]]
             BorderXColor += [xStem[i]]
 
@@ -405,7 +407,6 @@ def FindStripesColor(ImageData, Debug, Test):
     plt224.set_title('Diff')
 
     fig1.show()
-
     #fig2 = plt.figure(2)
     #fig2.clf()
     
@@ -428,15 +429,23 @@ def FindStripesColor(ImageData, Debug, Test):
     
 def FindInImage(Sample):
     global objCascade
-    imgColor = cv2.imread(Sample)
+    imgColor = cv2.imread(Sample) 
+    if imgColor.shape[0] > 512:
+        SizeY = int(imgColor.shape[1]*0.5)
+        SizeX = int(imgColor.shape[0]*0.5)
+        imgResized = cv2.resize(imgColor,(SizeY,SizeX))
+        cv2.imshow('frame', imgResized)
+    else:
+        cv2.imshow('frame', imgColor)
+    let = cv2.waitKey(0)
     imgGray = cv2.cvtColor(imgColor.copy(), cv2.COLOR_BGR2GRAY)
     #print 'shape img: %s -> shape imgColor: %s' %(str(img.shape),str(imgColor.shape))
 
     # Detect faces in the image
     objRes = objCascade.detectMultiScale(
         imgGray,
-        scaleFactor=1.015,
-        minNeighbors=30,
+        scaleFactor=1.02,
+        minNeighbors=20,
         minSize=(100, 100),
         flags=cv2.cv.CV_HAAR_SCALE_IMAGE
     )
@@ -525,8 +534,8 @@ def resval(resistor,Debug):
 #imgSRC += ['./DB/0_14.jpg' ]
 #imgSRC = '0_3.jpg'
 
-ResistorsInImage = FindInImage('./TestDB/75.jpg')  
-##        3, 4, 75, 96, 103
+ResistorsInImage = FindInImage('./TestDB/' + sys.argv[1] +'.jpg')   
+##        2, 16, 
 print ResistorsInImage
 
 imgSRC = ResistorsInImage[:]
@@ -550,6 +559,6 @@ for i in range(len(imgSRC)):
         if CanBeRead != 0:     
             print resval(ValueColor,False)
 
-
+    raw_input("Press Enter to continue...")
 
 

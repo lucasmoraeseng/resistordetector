@@ -1,0 +1,286 @@
+Filename: 0.jpg
+	Expectec Result: 1
+	Received Result: 0
+Filename: 1.jpg
+	Expectec Result: 2
+	Received Result: 1
+		Object0: x: 290 y: 127 w: 577 h: 577
+Filename: 2.jpg
+	Expectec Result: 1
+	Received Result: 1
+		Object0: x: 303 y: 89 w: 546 h: 546
+Filename: 3.jpg
+	Expectec Result: 1
+	Received Result: 0
+Filename: 4.jpg
+	Expectec Result: 1
+	Received Result: 1
+		Object0: x: 342 y: 84 w: 497 h: 497
+Filename: 5.jpg
+	Expectec Result: 1
+	Received Result: 2
+		Object0: x: 76 y: 258 w: 143 h: 143
+		Object0: x: 368 y: 116 w: 399 h: 399
+Filename: 6.jpg
+	Expectec Result: 1
+	Received Result: 0
+Filename: 7.jpg
+	Expectec Result: 1
+	Received Result: 3
+		Object0: x: 1195 y: 236 w: 117 h: 117
+		Object0: x: 936 y: 262 w: 189 h: 189
+		Object0: x: 217 y: 64 w: 503 h: 503
+Filename: 8.jpg
+	Expectec Result: 1
+	Received Result: 2
+		Object0: x: 147 y: 207 w: 206 h: 206
+		Object0: x: 409 y: 109 w: 473 h: 473
+Filename: 9.jpg
+	Expectec Result: 1
+	Received Result: 0
+Filename: 10.jpg
+	Expectec Result: 3
+	Received Result: 1
+		Object0: x: 402 y: 302 w: 410 h: 410
+Filename: 11.jpg
+	Expectec Result: 1
+	Received Result: 2
+		Object0: x: 277 y: 141 w: 454 h: 454
+		Object0: x: 806 y: 183 w: 208 h: 208
+Filename: 12.jpg
+	Expectec Result: 1
+	Received Result: 1
+		Object0: x: 270 y: 74 w: 585 h: 585
+Filename: 13.jpg
+	Expectec Result: 1
+	Received Result: 1
+		Object0: x: 459 y: 7 w: 118 h: 118
+Filename: 14.jpg
+	Expectec Result: 2
+	Received Result: 1
+		Object0: x: 281 y: 93 w: 569 h: 569
+Filename: 15.jpg
+	Expectec Result: 2
+	Received Result: 1
+		Object0: x: 359 y: 55 w: 614 h: 614
+Filename: 16.jpg
+	Expectec Result: 2
+	Received Result: 2
+		Object0: x: 81 y: 259 w: 197 h: 197
+		Object0: x: 388 y: 127 w: 440 h: 440
+Filename: 17.jpg
+	Expectec Result: 1
+	Received Result: 0
+Filename: 18.jpg
+	Expectec Result: 2
+	Received Result: 2
+		Object0: x: 634 y: 255 w: 342 h: 342
+		Object0: x: 91 y: 150 w: 207 h: 207
+Filename: 19.jpg
+	Expectec Result: 1
+	Received Result: 3
+		Object0: x: 177 y: 165 w: 162 h: 162
+		Object0: x: 1018 y: 330 w: 113 h: 113
+		Object0: x: 424 y: 108 w: 428 h: 428
+Filename: 20.jpg
+	Expectec Result: 1
+	Received Result: 2
+		Object0: x: 344 y: 215 w: 420 h: 420
+		Object0: x: 106 y: 362 w: 196 h: 196
+Filename: 21.jpg
+	Expectec Result: 1
+	Received Result: 0
+Filename: 22.jpg
+	Expectec Result: 1
+	Received Result: 0
+Filename: 23.jpg
+	Expectec Result: 1
+	Received Result: 1
+		Object0: x: 282 y: 62 w: 611 h: 611
+Filename: 0.jpg
+	Expectec Result: 1
+	Received Result: 0
+Filename: 1.jpg
+	Expectec Result: 2
+	Received Result: 1
+		Object0: x: 293 y: 134 w: 568 h: 568
+Filename: 2.jpg
+	Expectec Result: 1
+	Received Result: 1
+		Object0: x: 303 y: 87 w: 549 h: 549
+Filename: 3.jpg
+	Expectec Result: 1
+	Received Result: 0
+Filename: 4.jpg
+	Expectec Result: 1
+	Received Result: 1
+		Object0: x: 344 y: 83 w: 497 h: 497
+Filename: 5.jpg
+	Expectec Result: 1
+	Received Result: 2
+		Object0: x: 78 y: 256 w: 149 h: 149
+		Object0: x: 365 y: 114 w: 405 h: 405
+Filename: 6.jpg
+	Expectec Result: 1
+	Received Result: 0
+Filename: 7.jpg
+	Expectec Result: 1
+	Received Result: 3
+		Object0: x: 1195 y: 234 w: 118 h: 118
+		Object0: x: 940 y: 263 w: 187 h: 187
+		Object0: x: 219 y: 67 w: 499 h: 499
+Filename: 8.jpg
+	Expectec Result: 1
+	Received Result: 2
+		Object0: x: 154 y: 210 w: 203 h: 203
+		Object0: x: 410 y: 110 w: 472 h: 472
+Filename: 9.jpg
+	Expectec Result: 1
+	Received Result: 0
+Filename: 10.jpg
+	Expectec Result: 3
+	Received Result: 1
+		Object0: x: 407 y: 304 w: 410 h: 410
+Filename: 11.jpg
+	Expectec Result: 1
+	Received Result: 2
+		Object0: x: 272 y: 141 w: 457 h: 457
+		Object0: x: 811 y: 188 w: 200 h: 200
+Filename: 12.jpg
+	Expectec Result: 1
+	Received Result: 1
+		Object0: x: 289 y: 85 w: 561 h: 561
+Filename: 13.jpg
+	Expectec Result: 1
+	Received Result: 2
+		Object0: x: 460 y: 6 w: 122 h: 122
+		Object0: x: 91 y: 85 w: 111 h: 111
+Filename: 14.jpg
+	Expectec Result: 2
+	Received Result: 1
+		Object0: x: 279 y: 90 w: 572 h: 572
+Filename: 15.jpg
+	Expectec Result: 2
+	Received Result: 1
+		Object0: x: 353 y: 56 w: 617 h: 617
+Filename: 16.jpg
+	Expectec Result: 2
+	Received Result: 2
+		Object0: x: 59 y: 258 w: 188 h: 188
+		Object0: x: 387 y: 126 w: 443 h: 443
+Filename: 17.jpg
+	Expectec Result: 1
+	Received Result: 0
+Filename: 18.jpg
+	Expectec Result: 2
+	Received Result: 1
+		Object0: x: 613 y: 251 w: 335 h: 335
+Filename: 19.jpg
+	Expectec Result: 1
+	Received Result: 4
+		Object0: x: 170 y: 164 w: 161 h: 161
+		Object0: x: 1014 y: 330 w: 111 h: 111
+		Object0: x: 1089 y: 334 w: 119 h: 119
+		Object0: x: 423 y: 108 w: 430 h: 430
+Filename: 20.jpg
+	Expectec Result: 1
+	Received Result: 3
+		Object0: x: 184 y: 366 w: 180 h: 180
+		Object0: x: 61 y: 374 w: 185 h: 185
+		Object0: x: 344 y: 214 w: 421 h: 421
+Filename: 21.jpg
+	Expectec Result: 1
+	Received Result: 0
+Filename: 22.jpg
+	Expectec Result: 1
+	Received Result: 0
+Filename: 23.jpg
+	Expectec Result: 1
+	Received Result: 1
+		Object0: x: 280 y: 62 w: 614 h: 614
+Filename: 0.jpg
+	Expectec Result: 1
+	Received Result: 1
+		Object0: x: 293 y: 134 w: 568 h: 568
+Filename: 1.jpg
+	Expectec Result: 2
+	Received Result: 1
+		Object0: x: 303 y: 87 w: 549 h: 549
+Filename: 2.jpg
+	Expectec Result: 1
+	Received Result: 1
+		Object0: x: 344 y: 83 w: 497 h: 497
+Filename: 3.jpg
+	Expectec Result: 1
+	Received Result: 2
+		Object0: x: 78 y: 256 w: 149 h: 149
+		Object0: x: 365 y: 114 w: 405 h: 405
+Filename: 4.jpg
+	Expectec Result: 1
+	Received Result: 3
+		Object0: x: 1195 y: 234 w: 118 h: 118
+		Object0: x: 940 y: 263 w: 187 h: 187
+		Object0: x: 219 y: 67 w: 499 h: 499
+Filename: 5.jpg
+	Expectec Result: 1
+	Received Result: 2
+		Object0: x: 154 y: 210 w: 203 h: 203
+		Object0: x: 410 y: 110 w: 472 h: 472
+Filename: 6.jpg
+	Expectec Result: 1
+	Received Result: 1
+		Object0: x: 407 y: 304 w: 410 h: 410
+Filename: 7.jpg
+	Expectec Result: 1
+	Received Result: 2
+		Object0: x: 272 y: 141 w: 457 h: 457
+		Object0: x: 811 y: 188 w: 200 h: 200
+Filename: 8.jpg
+	Expectec Result: 1
+	Received Result: 1
+		Object0: x: 289 y: 85 w: 561 h: 561
+Filename: 9.jpg
+	Expectec Result: 1
+	Received Result: 1
+		Object0: x: 279 y: 90 w: 572 h: 572
+Filename: 10.jpg
+	Expectec Result: 3
+	Received Result: 1
+		Object0: x: 353 y: 56 w: 617 h: 617
+Filename: 11.jpg
+	Expectec Result: 1
+	Received Result: 2
+		Object0: x: 59 y: 258 w: 188 h: 188
+		Object0: x: 387 y: 126 w: 443 h: 443
+Filename: 12.jpg
+	Expectec Result: 1
+	Received Result: 4
+		Object0: x: 170 y: 164 w: 161 h: 161
+		Object0: x: 1014 y: 330 w: 111 h: 111
+		Object0: x: 1089 y: 334 w: 119 h: 119
+		Object0: x: 423 y: 108 w: 430 h: 430
+Filename: 13.jpg
+	Expectec Result: 1
+	Received Result: 3
+		Object0: x: 184 y: 366 w: 180 h: 180
+		Object0: x: 61 y: 374 w: 185 h: 185
+		Object0: x: 344 y: 214 w: 421 h: 421
+Filename: 14.jpg
+	Expectec Result: 2
+	Received Result: 0
+Filename: 15.jpg
+	Expectec Result: 2
+	Received Result: 1
+		Object0: x: 280 y: 62 w: 614 h: 614
+Filename: 16.jpg
+	Expectec Result: 2
+	Received Result: 4
+		Object0: x: 19 y: 273 w: 117 h: 117
+		Object0: x: 1198 y: 618 w: 111 h: 111
+		Object0: x: 108 y: 353 w: 181 h: 181
+		Object0: x: 317 y: 133 w: 532 h: 532
+Filename: 17.jpg
+	Expectec Result: 1
+	Received Result: 2
+		Object0: x: 141 y: 292 w: 139 h: 139
+		Object0: x: 387 y: 83 w: 485 h: 485
