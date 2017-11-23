@@ -1,4 +1,4 @@
-# Resistor Identifier
+# Resistor Detector and Identifier
 
 Python application using Haar cascade detector and openCV to extract value of a pth resistor.
 
@@ -14,7 +14,7 @@ Oriented by: Eduardo Valle
 
 # FileList
 
-Application Scripts: Files used to process final application, in this folder we have also other file that we used to test some scripts.
+Application Scripts: Files used to process final application, in this folder we have also others files that we used to test some scripts.
 
 Train Scripts: Files used to train the detector.
 
