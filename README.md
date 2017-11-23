@@ -1,4 +1,4 @@
-# resistordetector
+# Resistor Identifier
 
 Python application using Haar cascade detector and openCV to extract value of a pth resistor.
 
