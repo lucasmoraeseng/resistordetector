@@ -20,3 +20,4 @@ Train Scripts: Files used to train the detector.
 
 TestDB: Database used to test our haar cascade.
  
+PosCell: Contains a Database with resistor images.
